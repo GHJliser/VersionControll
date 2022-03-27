@@ -1,0 +1,7 @@
+﻿CREATE TABLE [Demo].[Customer]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(20) NULL,
+	[Age] INT NULL,
+	[Memo] NVARCHAR(50) NULL
+)
